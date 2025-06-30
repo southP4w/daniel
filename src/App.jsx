@@ -1,9 +1,9 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
-import Navbar from './Navbar.jsx';
-import Home from './pages/Home.jsx'
-import Projects from './pages/Projects.jsx';
-import Videos from "./pages/Videos.jsx";
+import Navbar from './components/Navbar.jsx';
+import Home from './components/pages/Home.jsx'
+import Projects from './components/pages/Projects.jsx';
+import Videos from "./components/pages/Videos.jsx";
 
 function App() {
     return (
