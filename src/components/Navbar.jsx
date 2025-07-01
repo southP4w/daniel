@@ -11,9 +11,9 @@ function Navbar() {
                 margin: 0, padding: 0,
                 marginLeft: '2rem' // Space between logo and links
             }}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/videos">Videos</Link></li>
+                <li><Link to="./">Home</Link></li>
+                <li><Link to="./projects">Projects</Link></li>
+                <li><Link to="./videos">Videos</Link></li>
             </ul>
         </nav>
     );
